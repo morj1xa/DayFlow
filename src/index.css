@@ -17,4 +17,5 @@
     env(safe-area-inset-right, 0px)
   );
   box-sizing: border-box;
+  color: white;
 }

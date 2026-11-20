@@ -3,11 +3,14 @@ import { createRoot } from "react-dom/client";
 import { init, viewport, swipeBehavior } from "@tma.js/sdk";
 import "./index.css";
 import App from "./App.tsx";
+import { BrowserRouter } from "react-router-dom";
 
 // Сначала сразу отображаем приложение
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>,
 );
 

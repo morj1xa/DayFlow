@@ -1,0 +1,24 @@
+.add-task {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(71, 74, 77);
+  border-radius: 20px;
+  height: 500px;
+  align-items: center;
+}
+
+.add-task #task {
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.create-button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+}
